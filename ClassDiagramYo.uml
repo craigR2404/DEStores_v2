@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-133.606690777577" y="493.356238698011">Model.Customer</node>
+    <node x="482.36347197106693" y="419.2423146473779">Model.Order</node>
+    <node x="-199.44846292947557" y="59.63652802893307">Model.Loyalty</node>
+    <node x="303.6889692585896" y="48.75406871609403">Model.Product</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.Order" target="Model.Product">
+      <point x="-47.75" y="-146.5" />
+      <point x="361.6903254972874" y="336.623869801085" />
+      <point x="348.4389692585894" y="321.8499095840868" />
+      <point x="-44.75" y="94.5" />
+    </edge>
+    <edge source="Model.Product" target="Model.Order">
+      <point x="44.75" y="94.5" />
+      <point x="352.25" y="214.0" />
+      <point x="355.25" y="214.0" />
+      <point x="47.75" y="-146.5" />
+    </edge>
+    <edge source="Model.Customer" target="Model.Loyalty">
+      <point x="-59.0" y="-107.5" />
+      <point x="-151.38336347197105" y="465.4014466546112" />
+      <point x="-155.88065099457503" y="302.88788426763114" />
+      <point x="-48.0" y="55.5" />
+    </edge>
+    <edge source="Model.Customer" target="Model.Order">
+      <point x="59.0" y="-107.5" />
+      <point x="203.0" y="557.0" />
+      <point x="307.5" y="557.0" />
+      <point x="0.0" y="146.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6768665850673194" x="201.5" y="398.5" />
+  <SelectedNodes>
+    <node>Model.Order</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

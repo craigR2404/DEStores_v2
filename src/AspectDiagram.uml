@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1652.8453918766422" y="804.0">AspectsYo.productLogger</node>
+    <node x="478.51446007696" y="662.0">DAL.CustomerDAL</node>
+    <node x="1489.2916666666665" y="675.0">DataYo.ProductData</node>
+    <node x="0.0" y="930.0">Servlets.LoyaltyServlet</node>
+    <node x="287.51446007695995" y="675.0">DataYo.CustomerData</node>
+    <node x="363.49646765271723" y="791.0">Services.CustomerService</node>
+    <node x="1034.8477934102932" y="662.0">Services.OrderService</node>
+    <node x="370.29166666666663" y="373.0">Model.Customer</node>
+    <node x="1062.125" y="0.0">Model.Order</node>
+    <node x="1760.7889749139752" y="930.0">Servlets.ProductServlet</node>
+    <node x="446.3298009860506" y="930.0">Tests.TestClass</node>
+    <node x="1057.7168595293597" y="930.0">Servlets.OrderServlet</node>
+    <node x="1256.2916666666665" y="662.0">DAL.ProductDAL</node>
+    <node x="90.29166666666674" y="91.0">Model.Loyalty</node>
+    <node x="914.51446007696" y="451.0">DAL.ConnectionYo</node>
+    <node x="1511.958333333333" y="386.0">Model.Product</node>
+    <node x="35.1265042827539" y="451.0">DataYo.LoyaltyData</node>
+    <node x="174.45238095238096" y="930.0">Servlets.CustomerServlet</node>
+    <node x="1069.51446007696" y="451.0">DataYo.OrderData</node>
+    <node x="734.51446007696" y="675.0">AspectsYo.customerLogger</node>
+    <node x="1418.8453918766422" y="791.0">Services.ProductService</node>
+    <node x="1552.893141580642" y="930.0">Tests.ProductAspectTest</node>
+    <node x="39.66830623080614" y="791.0">Services.LoyaltyService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Services.OrderService" target="Model.Order">
+      <point x="-62.33333333333326" y="-29.5" />
+      <point x="1066.01446007696" y="642.0" />
+      <point x="1059.01446007696" y="642.0" />
+      <point x="1059.01446007696" y="333.0" />
+      <point x="1105.875" y="333.0" />
+      <point x="-43.75" y="146.5" />
+    </edge>
+    <edge source="Servlets.OrderServlet" target="Model.Customer">
+      <point x="-31.25" y="-16.5" />
+      <point x="1088.9668595293597" y="880.0" />
+      <point x="893.01446007696" y="880.0" />
+      <point x="893.01446007696" y="612.0" />
+      <point x="525.099358974359" y="612.0" />
+      <point x="74.30769230769238" y="94.5" />
+    </edge>
+    <edge source="DataYo.ProductData" target="Model.Product">
+      <point x="41.666666666666515" y="-16.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Servlets.OrderServlet" target="Services.CustomerService">
+      <point x="-43.75" y="-16.5" />
+      <point x="1076.4668595293597" y="890.0" />
+      <point x="578.913134319384" y="890.0" />
+      <point x="97.91666666666674" y="29.5" />
+    </edge>
+    <edge source="Servlets.OrderServlet" target="Services.OrderService">
+      <point x="-6.25" y="-16.5" />
+      <point x="1113.9668595293597" y="910.0" />
+      <point x="1117.160732785733" y="910.0" />
+      <point x="1117.160732785733" y="771.0" />
+      <point x="1081.5977934102932" y="771.0" />
+      <point x="-46.75" y="29.5" />
+    </edge>
+    <edge source="Services.CustomerService" target="DataYo.CustomerData">
+      <point x="-100.71428571428578" y="-29.5" />
+      <point x="380.28218193843145" y="771.0" />
+      <point x="356.01446007695995" y="771.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Model.Order" target="Model.Product">
+      <point x="78.75" y="146.5" />
+      <point x="1228.375" y="323.0" />
+      <point x="1634.208333333333" y="323.0" />
+      <point x="40.75" y="-81.5" />
+    </edge>
+    <edge source="Services.CustomerService" target="DAL.CustomerDAL">
+      <point x="67.14285714285711" y="-29.5" />
+      <point x="548.1393247955743" y="771.0" />
+      <point x="537.51446007696" y="771.0" />
+      <point x="-59.0" y="29.5" />
+    </edge>
+    <edge source="Servlets.LoyaltyServlet" target="Model.Loyalty">
+      <point x="-44.33333333333337" y="-16.5" />
+      <point x="22.16666666666663" y="910.0" />
+      <point x="13.918306230806138" y="910.0" />
+      <point x="13.918306230806138" y="323.0" />
+      <point x="100.06944444444457" y="323.0" />
+      <point x="-78.22222222222217" y="55.5" />
+    </edge>
+    <edge source="Tests.TestClass" target="AspectsYo.customerLogger">
+      <point x="34.66666666666674" y="-16.5" />
+      <point x="532.9964676527173" y="910.0" />
+      <point x="808.51446007696" y="910.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Servlets.CustomerServlet" target="Model.Loyalty">
+      <point x="-21.285714285714334" y="-16.5" />
+      <point x="227.66666666666663" y="890.0" />
+      <point x="252.16830623080614" y="890.0" />
+      <point x="252.16830623080614" y="353.0" />
+      <point x="217.40277777777783" y="353.0" />
+      <point x="39.111111111111086" y="55.5" />
+    </edge>
+    <edge source="Tests.ProductAspectTest" target="Services.ProductService">
+      <point x="-20.25" y="-16.5" />
+      <point x="1613.643141580642" y="900.0" />
+      <point x="1543.6787252099757" y="900.0" />
+      <point x="17.833333333333485" y="29.5" />
+    </edge>
+    <edge source="DataYo.LoyaltyData" target="Model.Loyalty">
+      <point x="40.333333333333314" y="-16.5" />
+      <point x="135.95983761608727" y="353.0" />
+      <point x="158.7361111111112" y="353.0" />
+      <point x="-19.555555555555543" y="55.5" />
+    </edge>
+    <edge source="Model.Product" target="Model.Order">
+      <point x="-40.75" y="-81.5" />
+      <point x="1552.708333333333" y="333.0" />
+      <point x="1210.875" y="333.0" />
+      <point x="61.25" y="146.5" />
+    </edge>
+    <edge source="Servlets.ProductServlet" target="Services.ProductService">
+      <point x="-17.125" y="-16.5" />
+      <point x="1812.1639749139752" y="880.0" />
+      <point x="1615.0120585433087" y="880.0" />
+      <point x="89.16666666666652" y="29.5" />
+    </edge>
+    <edge source="Services.ProductService" target="Model.Product">
+      <point x="30.57142857142844" y="-29.5" />
+      <point x="1556.4168204480707" y="751.0" />
+      <point x="1644.6906068468566" y="751.0" />
+      <point x="1644.6906068468566" y="642.0" />
+      <point x="1605.9967948717945" y="642.0" />
+      <point x="12.538461538461434" y="81.5" />
+    </edge>
+    <edge source="Servlets.CustomerServlet" target="Model.Customer">
+      <point x="21.28571428571422" y="-16.5" />
+      <point x="270.2380952380952" y="910.0" />
+      <point x="277.01446007695995" y="910.0" />
+      <point x="277.01446007695995" y="612.0" />
+      <point x="388.8685897435897" y="612.0" />
+      <point x="-61.923076923076906" y="94.5" />
+    </edge>
+    <edge source="Model.Customer" target="Model.Loyalty">
+      <point x="-53.66666666666674" y="-94.5" />
+      <point x="397.1249999999999" y="343.0" />
+      <point x="236.95833333333348" y="343.0" />
+      <point x="58.66666666666674" y="55.5" />
+    </edge>
+    <edge source="AspectsYo.productLogger" target="Model.Product">
+      <point x="0.0" y="-16.5" />
+      <point x="1722.3453918766422" y="612.0" />
+      <point x="1643.6121794871792" y="612.0" />
+      <point x="50.15384615384619" y="81.5" />
+    </edge>
+    <edge source="Tests.ProductAspectTest" target="AspectsYo.productLogger">
+      <point x="20.25" y="-16.5" />
+      <point x="1654.143141580642" y="910.0" />
+      <point x="1687.5953918766422" y="910.0" />
+      <point x="-34.75" y="16.5" />
+    </edge>
+    <edge source="DAL.ProductDAL" target="Model.Product">
+      <point x="0.0" y="-29.5" />
+      <point x="1362.2916666666665" y="602.0" />
+      <point x="1530.7660256410254" y="602.0" />
+      <point x="-62.69230769230762" y="81.5" />
+    </edge>
+    <edge source="Servlets.OrderServlet" target="Services.ProductService">
+      <point x="43.75" y="-16.5" />
+      <point x="1163.9668595293597" y="900.0" />
+      <point x="1436.6787252099757" y="900.0" />
+      <point x="-89.16666666666652" y="29.5" />
+    </edge>
+    <edge source="Servlets.ProductServlet" target="Model.Product">
+      <point x="17.125" y="-16.5" />
+      <point x="1846.4139749139752" y="602.0" />
+      <point x="1656.1506410256407" y="602.0" />
+      <point x="62.69230769230762" y="81.5" />
+    </edge>
+    <edge source="Model.Customer" target="Model.Order">
+      <point x="53.66666666666674" y="-94.5" />
+      <point x="504.45833333333337" y="313.0" />
+      <point x="1070.875" y="313.0" />
+      <point x="-78.75" y="146.5" />
+    </edge>
+    <edge source="Services.ProductService" target="DAL.ProductDAL">
+      <point x="-61.14285714285734" y="-29.5" />
+      <point x="1464.702534733785" y="761.0" />
+      <point x="1415.2916666666665" y="761.0" />
+      <point x="53.0" y="29.5" />
+    </edge>
+    <edge source="Servlets.OrderServlet" target="Model.Order">
+      <point x="18.75" y="-16.5" />
+      <point x="1138.9668595293597" y="880.0" />
+      <point x="1232.3477934102932" y="880.0" />
+      <point x="1232.3477934102932" y="343.0" />
+      <point x="1193.375" y="343.0" />
+      <point x="43.75" y="146.5" />
+    </edge>
+    <edge source="Services.CustomerService" target="Model.Customer">
+      <point x="33.57142857142844" y="-29.5" />
+      <point x="514.5678962241457" y="761.0" />
+      <point x="468.01446007695995" y="761.0" />
+      <point x="468.01446007695995" y="642.0" />
+      <point x="475.56089743589735" y="642.0" />
+      <point x="24.769230769230717" y="94.5" />
+    </edge>
+    <edge source="Servlets.CustomerServlet" target="Services.LoyaltyService">
+      <point x="-63.85714285714289" y="-16.5" />
+      <point x="185.09523809523807" y="910.0" />
+      <point x="165.91830623080614" y="910.0" />
+      <point x="25.25" y="29.5" />
+    </edge>
+    <edge source="Services.LoyaltyService" target="Model.Loyalty">
+      <point x="0.0" y="-29.5" />
+      <point x="140.66830623080614" y="771.0" />
+      <point x="166.6265042827539" y="771.0" />
+      <point x="166.6265042827539" y="353.0" />
+      <point x="178.29166666666674" y="353.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="Services.LoyaltyService" target="DataYo.LoyaltyData">
+      <point x="-67.33333333333326" y="-29.5" />
+      <point x="73.33497289747288" y="771.0" />
+      <point x="95.6265042827539" y="771.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Tests.TestClass" target="Services.CustomerService">
+      <point x="-34.66666666666674" y="-16.5" />
+      <point x="463.66313431938386" y="910.0" />
+      <point x="461.41313431938397" y="910.0" />
+      <point x="-19.583333333333258" y="29.5" />
+    </edge>
+    <edge source="DAL.CustomerDAL" target="DAL.ConnectionYo">
+      <point x="78.66666666666674" y="-29.5" />
+      <point x="675.1811267436267" y="642.0" />
+      <point x="948.01446007696" y="642.0" />
+      <point x="-33.5" y="16.5" />
+    </edge>
+    <edge source="AspectsYo.customerLogger" target="Model.Customer">
+      <point x="0.0" y="-16.5" />
+      <point x="808.51446007696" y="622.0" />
+      <point x="512.7147435897435" y="622.0" />
+      <point x="61.923076923076906" y="94.5" />
+    </edge>
+    <edge source="Servlets.CustomerServlet" target="Services.CustomerService">
+      <point x="42.571428571428555" y="-16.5" />
+      <point x="291.5238095238095" y="900.0" />
+      <point x="383.0798009860505" y="900.0" />
+      <point x="-97.91666666666674" y="29.5" />
+    </edge>
+    <edge source="DAL.ProductDAL" target="DAL.ConnectionYo">
+      <point x="-70.66666666666652" y="-29.5" />
+      <point x="1291.625" y="582.0" />
+      <point x="1015.01446007696" y="582.0" />
+      <point x="33.5" y="16.5" />
+    </edge>
+    <edge source="Servlets.OrderServlet" target="Model.Product">
+      <point x="31.25" y="-16.5" />
+      <point x="1151.4668595293597" y="890.0" />
+      <point x="1245.7916666666665" y="890.0" />
+      <point x="1245.7916666666665" y="592.0" />
+      <point x="1518.227564102564" y="592.0" />
+      <point x="-75.23076923076906" y="81.5" />
+    </edge>
+    <edge source="DataYo.OrderData" target="Model.Order">
+      <point x="37.666666666666515" y="-16.5" />
+      <point x="1163.6811267436265" y="353.0" />
+      <point x="1158.375" y="353.0" />
+      <point x="8.75" y="146.5" />
+    </edge>
+    <edge source="Servlets.LoyaltyServlet" target="Services.LoyaltyService">
+      <point x="44.333333333333314" y="-16.5" />
+      <point x="110.83333333333326" y="910.0" />
+      <point x="115.41830623080614" y="910.0" />
+      <point x="-25.25" y="29.5" />
+    </edge>
+    <edge source="DataYo.CustomerData" target="Model.Customer">
+      <point x="-45.66666666666663" y="-16.5" />
+      <point x="310.3477934102933" y="622.0" />
+      <point x="401.2532051282052" y="622.0" />
+      <point x="-49.53846153846143" y="94.5" />
+    </edge>
+    <edge source="Services.OrderService" target="DataYo.OrderData">
+      <point x="0.0" y="-29.5" />
+      <point x="1128.3477934102932" y="642.0" />
+      <point x="1126.01446007696" y="642.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="DAL.CustomerDAL" target="Model.Customer">
+      <point x="0.0" y="-29.5" />
+      <point x="596.51446007696" y="632.0" />
+      <point x="500.33012820512806" y="632.0" />
+      <point x="49.53846153846143" y="94.5" />
+    </edge>
+    <edge source="Services.ProductService" target="DataYo.ProductData">
+      <point x="0.0" y="-29.5" />
+      <point x="1525.8453918766422" y="741.0" />
+      <point x="1551.7916666666665" y="741.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="1535.4999999999993" y="909.083333333333" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
